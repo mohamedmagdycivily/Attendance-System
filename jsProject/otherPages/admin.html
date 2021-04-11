@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .button {
+      display: inline-block;
+      /* padding: 15px 25px; */
+      /* font-size: 24px; */
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      size: 100%;
+    }
+
+    .button:hover {
+      background-color: #3e8e41;
+    }
+
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    .rej {
+      background-color: #db1313;
+    }
+    .rej:hover {
+      background-color: #ff0000;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admin Page</title>
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap 4 css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- custom css   -->
+    <style>
+      body {
+        font: 300 14px/1.5 "Oxygen", sans-serif;
+      }
+
+      .table td,
+      .table th {
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- in case you want to add some thing at the end -->
+
+        <!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 red">
+          Hello world
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 green">
+          Hello world
+        </div> -->
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <br />
+
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a
+                href="#AllEmployees"
+                class="nav-link active"
+                role="tab"
+                data-toggle="tab"
+                >All Employees</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                href="#FullReport"
+                class="nav-link"
+                role="tab"
+                data-toggle="tab"
+                >Full Report</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#LateReport"
+                class="nav-link"
+                role="tab"
+                data-toggle="tab"
+                >Late Report</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#ExcuseReport"
+                class="nav-link"
+                role="tab"
+                data-toggle="tab"
+                >Excuse Report</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#EmployeeBrief"
+                class="nav-link"
+                role="tab"
+                data-toggle="tab"
+                >Employee Brief</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#waitingEmployees"
+                class="nav-link"
+                role="tab"
+                data-toggle="tab"
+                >waiting Employees</a
+              >
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <br />
+            <div
+              role="tabpanel"
+              class="tab-pane fade in active"
+              id="AllEmployees"
+            >
+              <!-- all data -->
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col">Employee Name</th>
+                      <th scope="col">Attendance</th>
+                      <th scope="col">Absence</th>
+                      <th scope="col">Late</th>
+                      <th scope="col">Excuse</th>
+                    </tr>
+                  </thead>
+                  <tbody class="AllEmployees_tb">
+                    <!-- <tr>
+                      <th scope="row">ahmed salim</th>
+                      <td>23</td>
+                      <td>3</td>
+                      <td>2</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <!-- end of table  -->
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="FullReport">
+              <!-- all data -->
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col">Name</th>
+                      <th scope="col">User Name</th>
+                      <th scope="col">Password</th>
+                      <th scope="col">Attendance</th>
+                      <th scope="col">Absence</th>
+                      <th scope="col">Late</th>
+                      <th scope="col">Excuse</th>
+                    </tr>
+                  </thead>
+                  <tbody class="FullReport_tb">
+                    <!-- <tr>
+                      <th scope="row">mohamed magdy</th>
+                      <td>24</td>
+                      <td>3</td>
+                      <td>3</td>
+                      <td>3</td>
+                      <td>3</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <!-- end of table  -->
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="LateReport">
+              <!-- all data -->
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col">Name</th>
+                      <th scope="col">Late</th>
+                    </tr>
+                  </thead>
+                  <tbody class="LateReport_tb">
+                    <!-- <tr>
+                      <th scope="row">mohamed magdy</th>
+                      <td>24</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <!-- end of table  -->
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="ExcuseReport">
+              <!-- all data -->
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col">Name</th>
+                      <th scope="col">Excuse</th>
+                    </tr>
+                  </thead>
+                  <tbody class="ExuseReport_tb">
+                    <!-- <tr>
+                      <th scope="row">mohamed magdy</th>
+                      <td>24</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <!-- end of table  -->
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="EmployeeBrief">
+              <!-- all data -->
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col">Name</th>
+                      <th scope="col">User Name</th>
+                      <th scope="col">Password</th>
+                      <th scope="col">Attendance</th>
+                    </tr>
+                  </thead>
+                  <tbody class="EmloyeeBrief_tb">
+                    <!-- <tr>
+                      <th scope="row">mohamed magdy</th>
+                      <td>24</td>
+                      <td>3</td>
+                      <td>3</td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <!-- end of table  -->
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="waitingEmployees">
+              <!-- all data -->
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                  <thead>
+                    <tr class="bg-dark text-white">
+                      <th scope="col">Name</th>
+                      <th scope="col">Accept</th>
+                      <th scope="col">Reject</th>
+                    </tr>
+                  </thead>
+                  <tbody class="waitingEmployees_tb">
+                    <!-- <tr>
+                      <th scope="row">mohamed magdy</th>
+                      <td>
+                        <button class="button acc">Accept</button>
+                      </td>
+                      <td>
+                        <button class="button rej">Reject</button>
+                      </td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <!-- end of table  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap 4 popper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap 4 js -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <!-- <script src="js/main.js"></script> -->
+    <script src="admin.js"></script>
+  </body>
+</html>
+
+<!--
+to do 
+1-add info in tables 
+-->
