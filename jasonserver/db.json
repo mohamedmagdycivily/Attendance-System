@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "createInfo": {
+        "firstName": "mohamed",
+        "lastName": "madgy",
+        "address": "mansoura",
+        "email": "atef@gmail.com",
+        "age": 10
+      },
+      "loginInfo": {
+        "userName": "m",
+        "userPassword": 111,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 19,
+        "absence": 13,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 3:28:41 am"
+      },
+      "id": 1
+    },
+    {
+      "createInfo": {
+        "firstName": "salma",
+        "lastName": "mm",
+        "address": "atef@gmail.com",
+        "email": "atef@gmail.com",
+        "age": 10
+      },
+      "loginInfo": {
+        "userName": "hrqto",
+        "userPassword": 347072,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 0,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 3:28:41 am"
+      },
+      "id": 2
+    },
+    {
+      "createInfo": {
+        "firstName": "abdo",
+        "lastName": "mm",
+        "address": "mansoura",
+        "email": "atef@gmail.com",
+        "age": 10
+      },
+      "loginInfo": {
+        "userName": "gcrxl",
+        "userPassword": 551301,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 0,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 3:28:41 am"
+      },
+      "id": 3
+    },
+    {
+      "createInfo": {
+        "firstName": "noha",
+        "lastName": "mm",
+        "address": "atef@gmail.com",
+        "email": "mmmm",
+        "age": 10
+      },
+      "loginInfo": {
+        "userName": "npz{n",
+        "userPassword": 632266,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 0,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 3:28:41 am"
+      },
+      "id": 4
+    },
+    {
+      "createInfo": {
+        "firstName": "hend",
+        "lastName": "madgy",
+        "address": "mansoura",
+        "email": "atef@gmail.com",
+        "age": 10
+      },
+      "loginInfo": {
+        "userName": "hend",
+        "userPassword": 111,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 10,
+        "absence": 3,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 3:28:41 am"
+      },
+      "id": 5
+    },
+    {
+      "createInfo": {
+        "firstName": "mohamed",
+        "lastName": "magdy",
+        "address": "mansoura",
+        "email": "mohamedmagdycivily@gmail.com",
+        "age": 50
+      },
+      "loginInfo": {
+        "userName": "uzznf",
+        "userPassword": 213604,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 1,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 5:34:00 pm"
+      },
+      "id": 23
+    },
+    {
+      "createInfo": {
+        "firstName": "last",
+        "lastName": "test",
+        "address": "mansoura",
+        "email": "mohamedmagdycivily@gmail.com",
+        "age": 25
+      },
+      "loginInfo": {
+        "userName": "uipey",
+        "userPassword": 960287,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 1,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 6:01:10 pm"
+      },
+      "id": 24
+    },
+    {
+      "createInfo": {
+        "firstName": "maged",
+        "lastName": "magdy",
+        "address": "mansoura",
+        "email": "mohamedmagdycivily@gmail.com",
+        "age": 30
+      },
+      "loginInfo": {
+        "userName": "tcvmr",
+        "userPassword": 295137,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 1,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "11/02/2021, 9:19:39 pm"
+      },
+      "id": 25
+    },
+    {
+      "createInfo": {
+        "firstName": "hend ",
+        "lastName": "nnn",
+        "address": "mansoura",
+        "email": "mohamedmagdycivily@gmail.com",
+        "age": 25
+      },
+      "loginInfo": {
+        "userName": "zvyxs",
+        "userPassword": 856463,
+        "acceptance": true,
+        "in": false
+      },
+      "attendanceInfo": {
+        "attendance": 0,
+        "absence": 1,
+        "Late": 0,
+        "Excuse": 0,
+        "attendance_time": "13/02/2021, 1:33:38 pm"
+      },
+      "id": 26
+    }
+  ]
+}
